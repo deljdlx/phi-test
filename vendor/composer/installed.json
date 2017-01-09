@@ -1,0 +1,65 @@
+[
+    {
+        "name": "phi-traits",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ElBiniou/phi-traits.git",
+            "reference": "2f3f1bde6582c1949854e505a44670d8773b07cd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ElBiniou/phi-traits/zipball/2f3f1bde6582c1949854e505a44670d8773b07cd",
+            "reference": "2f3f1bde6582c1949854e505a44670d8773b07cd",
+            "shasum": ""
+        },
+        "time": "2017-01-09 21:40:53",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Phi\\Traits\\": "source/class/Traits"
+            },
+            "files": []
+        },
+        "description": "Usefull traits",
+        "support": {
+            "source": "https://github.com/ElBiniou/phi-traits/tree/master",
+            "issues": "https://github.com/ElBiniou/phi-traits/issues"
+        }
+    },
+    {
+        "name": "elbiniou-phi",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ElBiniou/phi.git",
+            "reference": "6a1e2d516ba036a505998f536747505200f0dcaf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ElBiniou/phi/zipball/6a1e2d516ba036a505998f536747505200f0dcaf",
+            "reference": "6a1e2d516ba036a505998f536747505200f0dcaf",
+            "shasum": ""
+        },
+        "require": {
+            "phi-traits": "dev-master"
+        },
+        "time": "2017-01-09 22:02:49",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Phi\\": "source/class",
+                "Phi\\Interfaces\\": "source/Interfaces"
+            }
+        },
+        "description": "A framework for people who don't like frameworks",
+        "support": {
+            "source": "https://github.com/ElBiniou/phi/tree/master",
+            "issues": "https://github.com/ElBiniou/phi/issues"
+        }
+    }
+]
